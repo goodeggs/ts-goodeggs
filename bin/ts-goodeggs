@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+set -o pipefail
+
+cmd=$1; shift || true
+
+case $cmd in
+  lint)
+    # you have to compile the whole project, no way I could find to do globs of files...
+    tsc --project . --pretty --noEmit
+    tslint --project . --format stylish "$@"
+    ;;
+  fmt)
+    tslint --project ./tsconfig.json --format stylish --fix
+    ;;
+  build)
+    tsc --project . --pretty
+    ;;
+  *)
+    echo "$(basename "$0") [lint|fmt|build]"
+    exit 1
+esac

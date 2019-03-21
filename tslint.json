@@ -1,0 +1,57 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:all", "tslint-config-prettier", "tslint-plugin-prettier"],
+  "jsRules": {},
+  "rules": {
+    "prettier": true,
+    "await-promise": [true, "PromiseLike", "Bluebird"],
+    "comment-format": false,
+    "completed-docs": false,
+    "match-default-export-name": false,
+    "interface-name": false,
+    "max-file-line-count": false,
+    "member-access": false,
+    "member-ordering": false,
+    "newline-before-return": false,
+    "no-default-export": false,
+    "no-implicit-dependencies": false,
+    "no-inferred-empty-object-type": false,
+    "no-magic-numbers": false,
+    "no-null-keyword": false,
+    "no-return-await": false,
+    "no-submodule-imports": false,
+    "no-unbound-method": false,
+    "no-parameter-reassignment": false,
+    "no-unused-variable": false, // the no-unused-variable rule implementation breaks other rules (see https://github.com/palantir/tslint/issues/2649)
+    // tslint-language-service has a workaround that removes the rule; but we need to ensure it's also removed for our command line lint
+    // We also don't need the rule because we utilize noUnusedLocals and noUnusedParameters in our tsconfig.json
+    "no-use-before-declare": false, // not recommended
+    "object-literal-sort-keys": false,
+    "only-arrow-functions": false,
+    "ordered-imports": false,
+    "promise-function-async": [
+      true,
+      "check-function-declaration",
+      "check-function-expression",
+      "check-method-declaration"
+    ],
+    "strict-boolean-expressions": false,
+    "strict-type-predicates": false,
+    "triple-equals": false,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "property-declaration",
+      "member-variable-declaration"
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ]
+  },
+  "rulesDirectory": []
+}

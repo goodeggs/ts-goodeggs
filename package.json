@@ -1,0 +1,34 @@
+{
+  "name": "ts-goodeggs",
+  "description": "Typescript things for Good Eggs",
+  "version": "1.0.0",
+  "author": "Good Eggs",
+  "bin": "./bin/ts-goodeggs",
+  "dependencies": {
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4",
+    "typescript-tslint-plugin": "^0.3.1"
+  },
+  "homepage": "https://github.com/goodeggs/ts-goodeggs/#readme",
+  "keywords": [
+    "goodeggs",
+    "tslint",
+    "typescript"
+  ],
+  "license": "ISC",
+  "peerDependencies": {
+    "prettier": "^1.15.3",
+    "tslint": "^5.12.1",
+    "typescript-tslint-plugin": "^0.3.1"
+  },
+  "repository": "github:goodeggs/ts-goodeggs",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "always-auth": true
+  }
+}
