@@ -14,7 +14,10 @@ In `tsconfig.json`:
 
 ```json
 {
-  "extends": "ts-goodeggs/tsconfig"
+  "extends": "ts-goodeggs/tsconfig",
+  "compilerOptions": {
+    "outDir": "build"
+  }
 }
 ```
 
