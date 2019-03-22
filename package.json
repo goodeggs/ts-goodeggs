@@ -1,7 +1,7 @@
 {
   "name": "ts-goodeggs",
   "description": "Typescript things for Good Eggs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Good Eggs",
   "bin": "./bin/ts-goodeggs",
   "dependencies": {
