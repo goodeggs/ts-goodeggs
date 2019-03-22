@@ -60,6 +60,5 @@
         "name": "typescript-tslint-plugin"
       }
     ]
-  },
-  "exclude": ["node_modules", "build", "public", "tmp"]
+  }
 }

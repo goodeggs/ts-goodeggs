@@ -17,7 +17,8 @@ In `tsconfig.json`:
   "extends": "ts-goodeggs/tsconfig",
   "compilerOptions": {
     "outDir": "build"
-  }
+  },
+  "exclude": ["node_modules", "build", "public", "tmp"]
 }
 ```
 
