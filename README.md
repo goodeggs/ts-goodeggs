@@ -12,6 +12,8 @@ yarn add --dev tslint typescript-tslint-plugin prettier ts-goodeggs
 
 In `tsconfig.json`:
 
+For an application:
+
 ```json
 {
   "extends": "ts-goodeggs/tsconfig",
@@ -21,6 +23,18 @@ In `tsconfig.json`:
   "include": [
     "src"
   ]
+}
+```
+
+For a module:
+
+```json
+{
+  "extends": "ts-goodeggs/tsconfig",
+  "compilerOptions": {
+    "outDir": "build"
+  },
+  "exclude": ["node_modules", "build"]
 }
 ```
 
