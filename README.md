@@ -18,7 +18,9 @@ In `tsconfig.json`:
   "compilerOptions": {
     "outDir": "build"
   },
-  "exclude": ["node_modules", "build", "public", "tmp"]
+  "include": [
+    "src"
+  ]
 }
 ```
 
