@@ -317,9 +317,9 @@ typescript-tslint-plugin@^0.5.4:
     vscode-languageserver "^5.1.0"
 
 typescript@^3.2.4:
-  version "3.7.2"
-  resolved "https://npm.goodeggs.com/typescript/-/typescript-3.7.2.tgz#27e489b95fa5909445e9fef5ee48d81697ad18fb"
-  integrity sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
+  version "3.7.5"
+  resolved "https://npm.goodeggs.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
+  integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
 
 vscode-jsonrpc@^4.0.0:
   version "4.0.0"
