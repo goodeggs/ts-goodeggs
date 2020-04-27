@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "prettier": "^1.15.3",
-    "tslint": "^5.12.1",
+    "tslint": "^6.1.2",
     "typescript": "^3.2.4",
     "typescript-tslint-plugin": "^0.5.4"
   },
@@ -23,7 +23,7 @@
   "license": "ISC",
   "peerDependencies": {
     "prettier": "^1.15.3",
-    "tslint": "^5.12.1",
+    "tslint": "^6.1.2",
     "typescript-tslint-plugin": "^0.5.4"
   },
   "repository": "github:goodeggs/ts-goodeggs",
