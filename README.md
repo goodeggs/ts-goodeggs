@@ -2,6 +2,8 @@
 
 > Typescript, TSLint, and Prettier configs
 
+_❌ This library is deprecated. Do not use it in new code and strive to remove it from existing code. See https://github.com/goodeggs/goodeggs-toolkit and https://github.com/goodeggs/goodeggs-tsconfig instead. ❌_
+
 ## Installation
 
 ```sh
